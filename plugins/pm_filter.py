@@ -240,8 +240,8 @@ async def next_page(bot, query):
                 ],
             )
     btn.insert(0, [
-        InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#files#{offset}#{req}"),
-        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
+        InlineKeyboardButton("Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ", callback_data=f"send_fall#files#{offset}#{req}"),
+        InlineKeyboardButton("Sᴇʟᴇᴄᴛ Lᴀɴɢᴜᴀɢᴇꜱ", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
         InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
@@ -352,8 +352,8 @@ async def language_check(bot, query):
             )
         
         btn.insert(0, [
-            InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#{pre}#{0}#{userid}"),
-            InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
+            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ", callback_data=f"send_fall#{pre}#{0}#{userid}"),
+            InlineKeyboardButton("Sᴇʟᴇᴄᴛ Lᴀɴɢᴜᴀɢᴇꜱ", callback_data=f"select_lang#{userid}")
         ])
 
         btn.insert(0, [
@@ -1628,8 +1628,8 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#{pre}#{0}#{message.from_user.id}"),
-        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{message.from_user.id}")
+        InlineKeyboardButton("Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ", callback_data=f"send_fall#{pre}#{0}#{message.from_user.id}"),
+        InlineKeyboardButton("Sᴇʟᴇᴄᴛ Lᴀɴɢᴜᴀɢᴇꜱ", callback_data=f"select_lang#{message.from_user.id}")
     ])
 
     btn.insert(0, [
