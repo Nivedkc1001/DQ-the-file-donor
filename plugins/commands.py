@@ -22,8 +22,8 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 𝗣𝗮𝗴𝗲', url='https://instagram.com/cyber4x4?igshid=MzNlNGNkZWQ4Mg=='),
-
+                    InlineKeyboardButton('𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 𝗣𝗮𝗴𝗲', url='https://instagram.com/cyber4x4?igshid=MzNlNGNkZWQ4Mg==')
+                ],[
             InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
 
   
@@ -55,8 +55,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                   InlineKeyboardButton('𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 𝗣𝗮𝗴𝗲', url='https://instagram.com/cyber4x4?igshid=MzNlNGNkZWQ4Mg=='),
-
+                   InlineKeyboardButton('𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 𝗣𝗮𝗴𝗲', url='https://instagram.com/cyber4x4?igshid=MzNlNGNkZWQ4Mg==')
+                ],[
             InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
 
   
@@ -115,8 +115,8 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 𝗣𝗮𝗴𝗲', url='https://instagram.com/cyber4x4?igshid=MzNlNGNkZWQ4Mg=='),
-
+                    InlineKeyboardButton('𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 𝗣𝗮𝗴𝗲', url='https://instagram.com/cyber4x4?igshid=MzNlNGNkZWQ4Mg==')
+                ],[
             InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
 
   
