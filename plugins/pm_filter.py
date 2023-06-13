@@ -1142,7 +1142,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 𝗣𝗮𝗴𝗲', url='https://instagram.com/cyber4x4?igshid=MzNlNGNkZWQ4Mg==')
                   ],[          
-            InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
+                    InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
 
   
     
