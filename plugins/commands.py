@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 𝗣𝗮𝗴𝗲', url='https://instagram.com/cyber4x4?igshid=MzNlNGNkZWQ4Mg==')
                 ],[
-                    InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
+                    InlineKeyboardButton('𝗔𝗹𝗹 𝗠𝗼𝘃𝗶𝗲 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
 
   
     
@@ -57,7 +57,7 @@ async def start(client, message):
         buttons = [[
                    InlineKeyboardButton('𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 𝗣𝗮𝗴𝗲', url='https://instagram.com/cyber4x4?igshid=MzNlNGNkZWQ4Mg==')
                 ],[
-                   InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
+                   InlineKeyboardButton('𝗔𝗹𝗹 𝗠𝗼𝘃𝗶𝗲 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
 
   
 
@@ -117,7 +117,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 𝗣𝗮𝗴𝗲', url='https://instagram.com/cyber4x4?igshid=MzNlNGNkZWQ4Mg==')
                 ],[
-                    InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
+                    InlineKeyboardButton('𝗔𝗹𝗹 𝗠𝗼𝘃𝗶𝗲 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/+SgufVcGFQsBjYmNl')
 
   
     
