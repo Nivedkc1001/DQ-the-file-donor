@@ -240,8 +240,8 @@ async def next_page(bot, query):
                 ],
             )
     btn.insert(0, [
-        InlineKeyboardButton("Sᴇɴᴅ Aʟʟ Fɪʟᴇꜱ", callback_data=f"send_fall#files#{offset}#{req}"),
-        InlineKeyboardButton("Sᴇʟᴇᴄᴛ Lᴀɴɢᴜᴀɢᴇꜱ", callback_data=f"select_lang#{req}")
+       
+        InlineKeyboardButton("🔰 Sᴇʟᴇᴄᴛ Yᴏᴜʀ Lᴀɴɢᴜᴀɢᴇ 🔰", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
         InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
